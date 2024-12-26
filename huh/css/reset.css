@@ -1,0 +1,45 @@
+/* ОБНУЛЕНИЕ + БАЗОВЫЕ */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+:focus,:active {outline: none;}
+*:focus, *:active {outline: none;}
+header, footer, main, section, aside, nav, button {display: block;}
+input, button, textarea {font-family: inherit;}
+button {background-color: transparent; cursor: pointer}
+::placeholder {
+    appearance: none;
+    font-family: inherit !important;
+    color: #bbb !important;
+    opacity:  inherit !important;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+input, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+strong, b {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: bold;
+}

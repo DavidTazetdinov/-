@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+        <link href="./css/style.css" rel="stylesheet">
+        <script src="./js/main.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <section class="heading_section">
+                <div class="heading_layout"><h1>Список задач</h1></div>
+            </section>
+
+            <section class="task_form_section">
+                <div class="task_form_layout">
+                    <div class="task_title">Новая задача</div>
+                    <div class="task_controls">
+                        <input class="task_name" placeholder="Название задачи...">
+                        <button class="task_add"><span>+</span> Добавить</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tasks_lists_section">
+                <div class="tasks_lists_layout">
+                    <div class="tasks_lists_backlog_container tasks_list_container empty_list_container">
+                        <div class="tasks_list_heading">Бэклог</div>
+                        <div class="task_placeholder">Задач нет...</div>
+                        <ul class="tasks_list"></ul>
+                    </div>
+                    
+                    <div class="tasks_lists_active_container tasks_list_container empty_list_container">
+                        <div class="tasks_list_heading">В процессе</div>
+                        <div class="task_placeholder">Задач нет...</div>
+                        <ul class="tasks_list"></ul>
+                    </div>
+                    
+                    <div class="tasks_lists_completed_container tasks_list_container empty_list_container">
+                        <div class="tasks_list_heading">Выполнено</div>
+                        <div class="task_placeholder">Задач нет...</div>
+                        <ul class="tasks_list"></ul>
+                    </div>
+                    
+                    <div class="tasks_lists_trash_container tasks_list_container empty_list_container">
+                        <div class="tasks_list_heading">Корзина</div>
+                        <div class="task_placeholder">Задач нет...</div>
+                        <ul class="tasks_list"></ul>
+                        <button class="tasks_clear">Очистить</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
